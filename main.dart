@@ -27,13 +27,13 @@ class _HomepageState extends State<Homepage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Siva',
+              'Siva',               // Replace 'siva' with your Name
               style: TextStyle(
                 color: Colors.blue,
                 fontSize: 25,
               ),
             ),
-            Text('Calculator',
+            Text('Calculator',       // you can custom your text style and size
                 style: TextStyle(
                   fontSize: 25,
                   color: Colors.black,
@@ -93,6 +93,7 @@ class _HomepageState extends State<Homepage> {
     );
   }
 
+  //Buttons
   Widget customeOutlineButton(String val) {
     return Expanded(
       child: OutlineButton(
@@ -102,7 +103,8 @@ class _HomepageState extends State<Homepage> {
           child: Text(val, style: TextStyle(fontSize: 25.0))),
     );
   }
-
+// calculation part
+  
   int first, second;
   String opp;
   String res, text = "";
